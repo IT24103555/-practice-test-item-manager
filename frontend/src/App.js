@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+const API_BASE =
+  process.env.REACT_APP_API_URL || 'https://practice-test-item-manager-production.up.railway.app';
 
 const initialForm = {
   name: '',
